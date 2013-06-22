@@ -10,6 +10,7 @@ $(document).ready(function(){
 		for (var listingIndex = 0; listingIndex < listingCount; listingIndex++)
 		{
 			var listing = listings[listingIndex];
+			if (!listing.subtitle) listing.subtitle = '';
 			output += '<tr class="show-listing ' + listing.networktype + '" data-ep="' + listing.ep + '">';
 			output += '	<td valign="middle">' + listing.networkchannel + '<br /><strong>' + listing.networktitle + '</strong></td>';
 			output += '	<td valign="middle"><strong>' + listing.showtitle + '</strong><br /><em>' + listing.subtitle + '</em></td>';
