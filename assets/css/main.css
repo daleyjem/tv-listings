@@ -1,8 +1,8 @@
 body, table {color:#fff; font-family:arial; text-shadow:1px 1px rgba(0,0,0,0.5)}
 body {background:#666; margin:0;padding:0;}
 
-div.showtime {height:40px; width:100%; border-bottom:solid 1px #aaa;
-	margin:0; padding-top:20px; text-align:center; background:#333; z-index:100; }
+div.showtime {height:40px; width:100%; border-bottom:solid 1px #aaa; background:#333 -webkit-linear-gradient(top, #333, #000);
+	margin:0; padding-top:20px; text-align:center; z-index:100; }
 div.showtime h2 {margin:0; padding:0; font-weight:normal; }
 table.listings, tbody, tr {display:block; }
 table.listings {position:absolute; top:60px; left:0; right:0; bottom:0; overflow:auto; z-index:1; }
