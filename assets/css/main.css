@@ -5,7 +5,7 @@ div.showtime {height:40px; width:100%; border-bottom:solid 1px #aaa; background:
 	margin:0; padding-top:20px; text-align:center; z-index:100; }
 div.showtime h2 {margin:0; padding:0; font-weight:normal; }
 table.listings, tbody, tr {display:block; }
-table.listings {position:absolute; top:60px; left:0; right:0; bottom:0; overflow:auto; z-index:1; }
+table.listings {position:absolute; top:60px; left:0; right:0; bottom:0; overflow:auto; z-index:1; -webkit-overflow-scrolling:touch; }
 
 tr.show-listing {border-bottom: solid 1px #aaa;}
 	tr.show-listing td {padding: 10px;}
